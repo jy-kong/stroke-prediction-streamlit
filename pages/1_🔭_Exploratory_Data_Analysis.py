@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from pandas_profiling import ProfileReport
+import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 
 st.set_page_config(layout="wide", page_title='Stroke Prediction Oracle', page_icon='🔮')
