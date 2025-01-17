@@ -4,6 +4,5 @@ pandas
 plotly
 scikit_learn
 streamlit
-pydantic
 streamlit_pandas_profiling
 seaborn
