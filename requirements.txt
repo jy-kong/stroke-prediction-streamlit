@@ -1,9 +1,9 @@
 matplotlib
 numpy
-pandas
 plotly
 scikit_learn
+pandas
+ydata_profiling
 streamlit
-pandas_profiling
 streamlit_pandas_profiling
 seaborn
