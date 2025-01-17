@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pandas_profiling
+from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 
 st.set_page_config(layout="wide", page_title='Stroke Prediction Oracle', page_icon='🔮')
@@ -36,7 +36,7 @@ def explore(data):
         if len(empty_columns) != 0:
             st.error(f"Your stroke medical data have empty column(s) {empty_columns}. Please fill in all the columns before exploration.")
         else:
-            pr = data.profile_report()
+            pr = ProfileReport(data, title="YData Profiling Report", explorative=True)
             st_profile_report(pr)
 
 uploaded_file = st.file_uploader("Choose a CSV file", type='csv')
