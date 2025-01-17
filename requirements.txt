@@ -7,3 +7,5 @@ pandas
 ydata_profiling
 streamlit
 streamlit_pandas_profiling
+requests
+streamlit_lottie
