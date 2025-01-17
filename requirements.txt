@@ -2,7 +2,7 @@ matplotlib==3.10.0
 numpy>=1.24.0
 plotly==5.24.1
 scikit-learn==1.6.1
-seaborn==0.13.2
+seaborn==0.12.2  # Adjusted seaborn version
 pandas==1.5.3
 ydata-profiling==4.3.0
 streamlit==1.41.1
