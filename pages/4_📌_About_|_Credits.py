@@ -18,13 +18,12 @@ lottie_about = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_sy6
 col1, col2 = st.columns([6, 3])
 with col1:
     st.write("""
-        The purpose of this platform is to assist healthcare professionals and researchers in analyzing data for early stroke prediction.
+        The purpose of this platform is to assist healthcare professionals and researchers in analyzing data for stroke prediction.
         \nThis website offers several functionalities:
-        \n**Stroke Prediction**: Train and deploy machine learning models to predict stroke occurrence.
-        \n**Feature Analysis**: Explore the influence of demographic, clinical, and lifestyle factors on stroke risk.
-        \n**Comparison of Models**: Evaluate and compare the performance of various machine learning models.
-        \n**EDA**: Perform Exploratory Data Analysis on the provided dataset.
-        \n**About & Credits**: Share your feedback and suggestions for future improvements!
+        \n**🔭 Exploratory Data Analysis**: Gain insights from the dataset through detailed EDA.
+        \n**🩺 Single Prediction**: Explore the influence of demographic, clinical, and lifestyle factors on stroke risk.
+        \n**🔬 Multiple | Dataset Prediction**: Perform batch prediction from a dataset file, displaying outcomes for all records.
+        \n**📌 About | Credits**: Share your feedback and suggestions for future improvements!
     """)
 with col2:
     st_lottie(
@@ -44,8 +43,8 @@ st.write("""[User Manual](https://drive.google.com/drive/folders/1JBCusrKUT6xpfo
 "---"
 
 st.subheader('Credits :star2: :computer:')
-st.write("""\nThis website was developed by [Your Name] from [Your Institution].
-            \nThe project was supervised by [Your Supervisor's Name and Title].""")
+st.write("""\nThis website was developed by Kong Jing Yuaan from the Faculty of Computer Science & Information Technology at Universiti Malaya.
+            \nThe project was supervised by Ts. Dr. Mohd Shahrul Nizam Bin Mohd Danuri.""")
 
 "---"
 
@@ -53,7 +52,7 @@ st.subheader(":mailbox: Get In Touch With Me!")
 st.write("""\nIf you have any feedback, don't hesitate to fill in this form.""")
 
 contact_form = """
-<form action="https://formsubmit.co/your-email@example.com" method="POST">
+<form action="https://formsubmit.co/kjyuaan8@gmail.com" method="POST">
      <input type="hidden" name="_captcha" value="false">
      <input type="text" name="name" placeholder="Your name" required>
      <input type="email" name="email" placeholder="Your email" required>
