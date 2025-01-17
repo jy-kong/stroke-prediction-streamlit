@@ -4,6 +4,6 @@ pandas
 plotly
 scikit_learn
 streamlit
-pandas_profiling
+pandas_profiling==3.6.2
 streamlit_pandas_profiling
 seaborn
