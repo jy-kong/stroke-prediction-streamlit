@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pandas_profiling
+from pydantic_settings import BaseSettings
 from streamlit_pandas_profiling import st_profile_report
 
 st.set_page_config(layout="wide", page_title='Stroke Prediction Oracle', page_icon='🔮')
