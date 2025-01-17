@@ -5,4 +5,5 @@ plotly
 scikit_learn
 streamlit
 streamlit_pandas_profiling
+pydantic<2.0
 seaborn
