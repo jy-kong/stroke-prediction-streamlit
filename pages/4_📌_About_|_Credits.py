@@ -38,7 +38,7 @@ with col2:
 
 st.subheader('Documentation :memo:')
 st.write("""The Website User Manual is available here.""")
-st.write("""[User Manual](https://drive.google.com/drive/folders/1JBCusrKUT6xpfowFHWOB2Gjs6pTr2lm2?usp=sharing)""")
+st.write("""[User Manual](https://drive.google.com/file/d/1ZgRSNgZuRfy5swKIYNcgZ0A8-TgWFOGy/view?usp=share_link)""")
 
 "---"
 
