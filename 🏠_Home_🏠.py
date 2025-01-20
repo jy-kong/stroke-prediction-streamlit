@@ -66,7 +66,7 @@ st.markdown("""
 
     
     #### User Manual
-    To understand how to use the Stroke Prediction Oracle in detail, please read the [Stroke Prediction Oracle User Manual](https://drive.google.com/file/d/13Q-lUBe5uA9yyu1syBOolFjgnlo-OoKq/view?usp=sharing).
+    To understand how to use the Stroke Prediction Oracle in detail, please read the [Stroke Prediction Oracle User Manual](https://drive.google.com/file/d/1ZgRSNgZuRfy5swKIYNcgZ0A8-TgWFOGy/view?usp=share_link).
     
 """
 )
